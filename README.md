@@ -1,22 +1,17 @@
 # image-resize
 
-A Clojure library designed to ... well, that part is up to you.
+A simple Clojure application that resizes an image to various dimensions needed for IOS deployment. Currently
+only has dimensions set for app icons.
 
 ## Usage
 
-FIXME
+First modify the src and output paths in the core file to point to where you want to pull the image from and save the
+new sizes.
+
+Then, boot up in your repl and move into the ````image-resize.core```` namespace and run ````(resize-image)```` this will take a few seconds and spit out all your images in the output path. You can easily add new sizes or change the names of the output images by modifying the map at the top of the file.
 
 ## License
 
-Copyright © 2019 FIXME
+Copyright © 2019
 
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+MIT
