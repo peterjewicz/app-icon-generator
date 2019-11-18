@@ -10,7 +10,7 @@ new sizes.
 
 Then, boot up in your repl and move into the ````image-resize.core```` namespace and run ````(resize-image)```` this will take a few seconds and spit out all your images in the output path. You can easily add new sizes or change the names of the output images by modifying the map at the top of the file.
 
-There's also extra maps, paths, and ````resize-splash```` to create splash images. This one is broken into 2 maps for portrait and landscape to help make it look a lot better overall.
+There's also extra maps, paths, and ````resize-splash```` to create splash images. This one is broken into 2 maps for portrait and landscape to help make it look a lot better overall. It forces a resize here, so it may scale it a bit wonky if the source image and end dimensions are way off. The project incldues two images that produced decent results for each.
 
 ## TODO
 1. Android icons
